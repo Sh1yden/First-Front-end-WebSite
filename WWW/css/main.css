@@ -134,6 +134,11 @@ header nav ul li.btn a:hover {
 }
 
 .hero--info .btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 158, 60, 1) 0%,
+    rgba(250, 131, 5, 1) 100%
+  );
   cursor: pointer;
   transform: scale(1.1);
 }
