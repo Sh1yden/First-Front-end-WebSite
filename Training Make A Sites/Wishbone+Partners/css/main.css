@@ -193,11 +193,6 @@ header .btn {
   font-size: 16px;
 }
 
-#our_process_container {
-  width: 100%;
-  height: 100%;
-}
-
 #our_process_container #our_process_content {
   text-align: center;
 
@@ -205,7 +200,6 @@ header .btn {
   margin-right: 20%;
   margin-top: 100px;
   margin-bottom: 100px;
-  height: 100%;
 }
 
 #our_process_container #our_process_content h2 {
@@ -306,4 +300,29 @@ header .btn {
   line-height: 24px;
   font-weight: regular;
   font-size: 16px;
+}
+
+#prior_clients_container {
+  background: #403e3b;
+}
+
+#prior_clients_container #prior_clients_content {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#prior_clients_container #prior_clients_content #prior_clients_text h2 {
+  color: #ece7e4;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#prior_clients_container #prior_clients_content #prior_clients_text h1 {
+}
+
+#prior_clients_container #prior_clients_content #prior_clients_text p {
 }
