@@ -272,7 +272,7 @@ header .btn {
 }
 
 #the_marble_container {
-  background-image: url("../img/Stairs.jpg");
+  background-image: url("../img/Stairs 1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -303,6 +303,8 @@ header .btn {
 }
 
 #prior_clients_container {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: #403e3b;
 }
 
@@ -310,6 +312,12 @@ header .btn {
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+#prior_clients_container #prior_clients_content #prior_clients_text {
+  flex: 50%;
+  padding-top: 65px;
+  margin-right: 136px;
 }
 
 #prior_clients_container #prior_clients_content #prior_clients_text h2 {
@@ -322,7 +330,59 @@ header .btn {
 }
 
 #prior_clients_container #prior_clients_content #prior_clients_text h1 {
+  color: #ffffff;
+  line-height: 38px;
+  font-weight: 400;
+  font-size: 32px;
 }
 
 #prior_clients_container #prior_clients_content #prior_clients_text p {
+  color: #ece7e4;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#prior_clients_container #prior_clients_content #prior_clients_imgs {
+  flex: 50%;
+}
+
+#prior_clients_container #prior_clients_content #prior_clients_imgs img {
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+#swirling_staircase_container {
+  background-image: url("../img/Stairs 2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+#swirling_staircase_text {
+  padding-right: 80%;
+  padding-left: 5%;
+  padding-top: 20%;
+}
+
+#swirling_staircase_text h1 {
+  color: #403e3b;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#swirling_staircase_text p {
+  color: #645c55;
+  line-height: 24px;
+  font-weight: regular;
+  font-size: 16px;
+}
+
+#test {
+  height: 100vh;
 }
