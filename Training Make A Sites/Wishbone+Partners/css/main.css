@@ -383,11 +383,12 @@ header .btn {
 }
 
 #featured_projects_container {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  background: #f7f7f7;
 }
 
 #featured_projects_container #featured_projects_content {
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -474,6 +475,57 @@ header .btn {
 }
 
 #meet_our_team_container #meet_our_team_content {
+  display: flex;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+#meet_our_team_container #meet_our_team_content #meet_our_team_text {
+  flex: 34%;
+  margin-right: 16px;
+}
+
+#meet_our_team_container #meet_our_team_content #meet_our_team_text h1 {
+  margin-bottom: 20px;
+
+  color: #403e3b;
+  line-height: 38px;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+#meet_our_team_container #meet_our_team_content #meet_our_team_text p {
+  color: #403e3b;
+  line-height: 24px;
+  font-weight: regular;
+  font-size: 15px;
+}
+
+#meet_our_team_container #meet_our_team_content #meet_our_team_text .btn {
+  margin-top: 30px;
+  color: #1b1a1a;
+  line-height: 24px;
+  background: none;
+  padding: 15px 30px;
+  border: none;
+  text-decoration: none;
+}
+
+#meet_our_team_container #meet_our_team_content #meet_our_team_text .btn:hover {
+  padding: 15px 30px;
+  background: #1b1a1a;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 300;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+#meet_our_team_container #meet_our_team_content #meet_our_team_imgs {
+  flex: 66%;
+}
+
+#meet_our_team_container #meet_our_team_content #meet_our_team_imgs img {
+  float: left;
+  margin-right: 20px;
 }
