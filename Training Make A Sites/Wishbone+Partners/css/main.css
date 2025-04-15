@@ -115,7 +115,6 @@ header .btn {
   margin-bottom: 100px;
   margin-right: 25%;
   margin-left: 25%;
-  width: 50%;
   height: 100%;
 }
 
@@ -381,4 +380,100 @@ header .btn {
   line-height: 24px;
   font-weight: regular;
   font-size: 16px;
+}
+
+#featured_projects_container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#featured_projects_container #featured_projects_content {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#featured_projects_container #featured_projects_content h2 {
+  margin-bottom: 20px;
+
+  color: #1b1a1a;
+  line-height: 42px;
+  font-weight: 400;
+  font-size: 39px;
+}
+#featured_projects_container #featured_projects_content p {
+  margin-bottom: 40px;
+
+  color: #645c55;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+#featured_projects_container
+  #featured_projects_content
+  #featured_projects_new_york {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 40px;
+}
+
+#featured_projects_container
+  #featured_projects_content
+  #featured_projects_new_york
+  #featured_projects_imgs {
+  position: relative;
+}
+
+#featured_projects_container
+  #featured_projects_content
+  #featured_projects_new_york
+  h2 {
+  margin-bottom: 0;
+
+  color: #645c55;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: regular;
+  font-size: 14px;
+}
+#featured_projects_container
+  #featured_projects_content
+  #featured_projects_new_york
+  h1 {
+  color: #403e3b;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+#featured_projects_container #featured_projects_content .btn {
+  margin-top: 30px;
+  margin-left: 40%;
+  color: #1b1a1a;
+  line-height: 24px;
+  background: none;
+  padding: 15px 30px;
+  border: none;
+  text-decoration: none;
+}
+
+#featured_projects_container #featured_projects_content .btn:hover {
+  padding: 15px 30px;
+  background: #1b1a1a;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 300;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+#meet_our_team_container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#meet_our_team_container #meet_our_team_content {
+  margin-left: 20%;
+  margin-right: 20%;
 }
