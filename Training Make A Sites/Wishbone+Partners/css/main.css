@@ -1,5 +1,7 @@
+/* Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Global */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@ body {
   font-size: 400;
 }
 
+/* Header */
 header {
   line-height: 24px;
   height: 70px;
@@ -44,6 +47,7 @@ header .btn {
   padding: 15px 30px;
 }
 
+/* Main */
 #hero_container {
   width: 100%;
   height: 100vh;
@@ -533,6 +537,7 @@ header .btn {
   margin-right: 25px;
 }
 
+/* Footer */
 #get_touch_container {
   background: #cec4bc;
   padding-top: 100px;
@@ -585,4 +590,36 @@ header .btn {
   font-weight: 300;
   border-radius: 14px;
   text-decoration: none;
+}
+
+#licensing_container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#licensing_container #licensing_content {
+  display: flex;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#licensing_container #licensing_content #licensing_text {
+  flex: 50%;
+}
+
+#licensing_container #licensing_content #licensing_text img {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+#licensing_container #licensing_content #licensing_text p {
+  color: #645c55;
+  line-height: 20px;
+  font-weight: regular;
+  font-size: 14px;
+}
+
+#licensing_container #licensing_content #licensing_icons img {
+  margin-top: 43%;
+  margin-right: 20px;
 }
