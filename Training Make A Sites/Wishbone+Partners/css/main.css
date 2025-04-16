@@ -459,7 +459,6 @@ header .btn {
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
-  height: 100vh;
 }
 
 #meet_our_team_container #meet_our_team_content #meet_our_team_text {
@@ -504,14 +503,15 @@ header .btn {
 }
 
 #meet_our_team_container #meet_our_team_content #meet_our_team_imgs {
+  display: flex;
+  flex-wrap: wrap;
   flex: 66%;
 }
 
 .programmer_container {
-  width: 30%;
-  height: 100px;
-  margin-right: 20px;
-  margin-bottom: 30px;
+  width: 321px;
+  margin-right: 40px;
+  margin-bottom: 50px;
 }
 
 .programmer_container p:first-of-type {
@@ -533,22 +533,56 @@ header .btn {
   margin-right: 25px;
 }
 
-/* Оформление .programmer_container */
-/* #firm_container #firm_info #firm_content img {
-  float: left;
-  margin-right: 25px;
-} */
-
-/* #programmer_name {
-  color: #1b1a1a;
-  line-height: 26px;
-  font-weight: regular;
-  font-size: 17px;
+#get_touch_container {
+  background: #cec4bc;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-#programmer_stack {
+#get_touch_container #get_touch_content {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#get_touch_container #get_touch_content #get_touch_text {
+  flex: 50%;
+}
+
+#get_touch_container #get_touch_content #get_touch_text h2 {
   color: #645c55;
-  line-height: 14px;
-  font-weight: regular;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
   font-size: 14px;
-} */
+}
+
+#get_touch_container #get_touch_content #get_touch_text h1 {
+  color: #1b1a1a;
+  line-height: 42px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#get_touch_container #get_touch_btn .btn {
+  flex: 50%;
+
+  margin-top: 30px;
+  color: #1b1a1a;
+  line-height: 24px;
+  background: none;
+  padding: 15px 30px;
+  border: none;
+  text-decoration: none;
+}
+
+#get_touch_container #get_touch_btn .btn:hover {
+  padding: 15px 30px;
+  background: #1b1a1a;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 300;
+  border-radius: 14px;
+  text-decoration: none;
+}
